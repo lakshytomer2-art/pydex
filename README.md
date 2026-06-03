@@ -1,4 +1,4 @@
-## current status 
+## Current Status 
 
 * Python Core: Learning fundamentals, clean syntax structures, and basic data processing workflows.
 * Daily Tracking: Maintaining an active, daily progress logs in my public repositories to track my coding habits and error-debugging journey.
