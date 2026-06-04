@@ -38,3 +38,14 @@ a **= 5
 print(a) #modulus"""
 
 #logical operators
+print(not False)
+print(not True)
+a=10
+b=12
+print(not (a<b))
+print(not (a>b))
+print((a<b) and (a>b))
+print((a<b) or (a>b))
+print((a!=b) and (a<b))
+print((a==b) or (a>b))
+
