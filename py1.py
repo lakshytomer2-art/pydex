@@ -1,4 +1,4 @@
-"""#airthmetic operators
+#airthmetic operators
 a = 12
 b = 5
 
@@ -6,14 +6,14 @@ print(a+b)
 print(a-b)
 print(a*b)
 print(a/b)
-print(a%b) #remainder modulus
-print(a**b)#a^b
+print(a%b)  #remainder modulus
+print(a**b) #a^b
 
 #relational operators
 a=50
 b=80
 
-print(a==b).          multi line comment
+print(a==b)         #multi line comment
 print(a!=b)
 print(a>b)
 print(a<b)
@@ -47,9 +47,9 @@ print(not (a>b))
 print((a<b) and (a>b))
 print((a<b) or (a>b))
 print((a!=b) and (a<b))
-print((a==b) or (a>b))"""
+print((a==b) or (a>b))
 
-"""#type conversion
+#type conversion
 a=12 #automatically it is considered as float
 b=12.6
 print(a+b)
@@ -89,17 +89,23 @@ print(a+b)
 
 a=1.2435
 a=str(1.2435)
-print(type(a))"""
-"""name=input("enter your name -")
+print(type(a))
+
+
+#inputs in python
+name=input("enter your name -")
 print("welcome",name)
+
 age=input("enter your age :")
-print("i am",age,"years old")"""
-"""value=int(input("enter the value :"))
+print("i am",age,"years old")
+
+value=int(input("enter the value :"))
 print(type(value),value)
 value=float(input("enter the value :"))
 print(type(value),value)
 value=input("enter the value :")
 print(type(value),value)
+
 name=input("enter the name:")
 age=int(input("enter the age:"))
 marks=float(input("enter the marks:"))
@@ -108,7 +114,7 @@ print(type(name))
 print("age =",age)
 print(type(age))
 print("marks=",marks)
-print(type(marks))"""
+print(type(marks))
 
 
 
