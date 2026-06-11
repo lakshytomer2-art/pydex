@@ -49,7 +49,7 @@ print((a<b) or (a>b))
 print((a!=b) and (a<b))
 print((a==b) or (a>b))"""
 
-#type conversion
+"""#type conversion
 a=12 #automatically it is considered as float
 b=12.6
 print(a+b)
@@ -61,10 +61,10 @@ b="12.6"
 print(a+b)
 #it will concatenate the two strings and give 1212.6 as output
 
-"""a= "12"
+a= "12"
 b= 12.6
 print(a+b)
-#it will give error because we cannot add string and float together"""
+#it will give error because we cannot add string and float together
 
 #type casting
 a= int("12") #manually converting string to integer
@@ -89,4 +89,26 @@ print(a+b)
 
 a=1.2435
 a=str(1.2435)
-print(type(a))
+print(type(a))"""
+"""name=input("enter your name -")
+print("welcome",name)
+age=input("enter your age :")
+print("i am",age,"years old")"""
+"""value=int(input("enter the value :"))
+print(type(value),value)
+value=float(input("enter the value :"))
+print(type(value),value)
+value=input("enter the value :")
+print(type(value),value)
+name=input("enter the name:")
+age=int(input("enter the age:"))
+marks=float(input("enter the marks:"))
+print("welcome",name)
+print(type(name))
+print("age =",age)
+print(type(age))
+print("marks=",marks)
+print(type(marks))"""
+
+
+
