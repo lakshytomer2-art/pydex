@@ -1,4 +1,5 @@
-#pratice question 1_addition of 2 input numbers
+#ch-1
+# #pratice question 1_addition of 2 input numbers
 a=int(input("enter the 1st number:"))
 b=int(input("enter the 2nd number:"))
 print("sum =",a+b)
@@ -16,3 +17,12 @@ print("the average of floating point numbers is",(a+b)/2)
 a=int(input("enter the 1st number:"))
 b=int(input("enter the 2nd number:"))
 print(a>=b)
+
+#ch-2 
+#5 WAP to input user’s first name & print its length.
+str=input("enter the user's first name:")
+print("length of the user's first name is :",len(str))
+
+#6 WAP to find the occurrence of ‘$’ in a String.
+str = "I have 2$ not 3$."
+print(str.count("$"))
