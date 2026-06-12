@@ -131,3 +131,36 @@ if(age<=18):
     print("cannot drive") #indentation: proper spacing after if,elif or else statements or before the print statement
 else:
     print("can drive")
+
+#nesting (1st try)
+age=85
+if(age<=18):
+    print("cannot drive")
+    if(age>=80):
+        print("cannot drive")
+    else:
+        print("can drive")
+#this will print nothing because python will only ever look at a nested statement if the main outer statement is True first.
+#(2nd try)
+age=85
+if(age>18): #outer condition : being too young or not i.e <= 18 or not
+    print("can drive")
+    if(age>80):  #inner condition: being too old or not i.e <80 or not
+        print("cannot drive(too old)")
+    else: #nesting
+        print("can drive")
+else:
+    print("cannot drive(too young)")
+
+#damn this was wrong too because my outer and nested if conditions both were satisfied and the output would be can drive and cannot drive(too old)
+
+#(3rd try)
+
+age=85
+if(age>18): 
+    if(age>80):  #📜 The Nesting Isolation Rule :Don't put a print statement between the outer if and inner/nested if
+        print("cannot drive(too old)")
+    else: 
+        print("can drive")
+else:
+    print("cannot drive(too young)")
