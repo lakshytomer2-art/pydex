@@ -1,6 +1,6 @@
 #ch-1
 # #pratice question 1_addition of 2 input numbers
-a=int(input("enter the 1st number:"))
+"""a=int(input("enter the 1st number:"))
 b=int(input("enter the 2nd number:"))
 print("sum =",a+b)
 
@@ -98,6 +98,10 @@ num=int(input("enter the number :"))
 if(num%7==0):
     print("num is a multiple of 7")
 if(num%7!=0):
-    print("num is not a multiple of 7")
+    print("num is not a multiple of 7")"""
+
+#ch3
+#11 WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
+movies=input("enter 1st movie:")
 
 
