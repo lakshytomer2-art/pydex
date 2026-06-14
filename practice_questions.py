@@ -1,6 +1,6 @@
 #ch-1
 # #pratice question 1_addition of 2 input numbers
-"""a=int(input("enter the 1st number:"))
+a=int(input("enter the 1st number:"))
 b=int(input("enter the 2nd number:"))
 print("sum =",a+b)
 
@@ -98,10 +98,56 @@ num=int(input("enter the number :"))
 if(num%7==0):
     print("num is a multiple of 7")
 if(num%7!=0):
-    print("num is not a multiple of 7")"""
+    print("num is not a multiple of 7")
 
 #ch3
 #11 WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
-movies=input("enter 1st movie:")
+list=[]
+movie_1=input("enter 1st movie:")
+movie_2=input("enter 2nd movie:")
+movie_3=input("enter 3rd movie:")
+list.append(movie_1)
+list.append(movie_2)
+list.append(movie_3)
+print(list)
+
+#12 WAP to check if a list contains a palindrome of elements. (Hint: use copy( ) method)
 
 
+list=[2,1,2]
+copied_list=list.copy() #informer
+print(list)
+reversed_list=list.reverse() #changer
+print(list)
+if(copied_list==reversed_list):  #error:A "Changer" always gives None as its direct result, so it's copied_list==none. Since a list is never equal to None, it jumps straight to your else block and prints "not a palindrome of elements"
+    print("list contains a palindrome of elements")
+else:
+    print("not a palindrome of elements")
+
+list=[2,1,2]
+copied_list=list.copy()
+print(copied_list)
+list.reverse()
+print(list)
+if(copied_list==list):
+    print("list contains a palindrome of elements")
+else:
+    print("not a palindrome")
+
+#13 WAP to count the number of students with the “A” grade in the following tuple.
+
+tup=("c","d","a","a","b","b","a") #strings
+print(tup)
+print(tup.count("a")) #informer
+
+#or
+tup=("c","d","a","a","b","b","a")
+print(tup)
+tupp=tup.count("a")
+print(tupp)
+
+#14 Store the above values in a list & sort them from “A” to “D”
+
+list=["c","d","a","a","b","b","a"]
+list.sort() #changer
+print(list)
